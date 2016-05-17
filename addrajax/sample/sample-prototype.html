@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ADDRAjax サンプルフォーム (prototype.js版)</title>
+<script src="../../addrajax/prototype.js"></script>
+<script src="../../addrajax/addrajax.js" charset="UTF-8"></script>
+<script><!--
+    Event.observe(window,'load',function(){
+        var dd = new ADDRAjax( 'pref', 'city', 'area' );
+        dd.JSONDATA = '../../addrajax/data';
+        dd.init();
+    });
+//--></script>
+</head>
+<body>
+
+<p>
+<a href="http://www.kawa.net/works/ajax/addrajax/addrajax.html">ADDRAjax</a>
+と
+<a href="http://www.prototypejs.org/">prototype.js</a> を利用したデモです。
+</p>
+
+<form onSubmit="return false;">
+
+<p>
+<select name="pref"><option value="">↓(都道府県)</option></select>
+<select name="city"><option value="">↓(市区町村)</option></select>
+<select name="area"><option value="">↓(町域)</option></select>
+</p>
+
+</form>
+
+<hr>
+<address>
+Copyright &copy; 2006-2007 Kawasaki Yusuke
+</address>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">_uacct="UA-835919-3";urchinTracker();</script>
+</body>
+</html>
