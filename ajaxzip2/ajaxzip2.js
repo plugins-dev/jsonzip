@@ -28,7 +28,7 @@
 
 AjaxZip2 = function () {};
 AjaxZip2.VERSION = '2.10';
-AjaxZip2.JSONDATA = 'ajaxzip2/data';
+AjaxZip2.JSONDATA = '/data';
 AjaxZip2.CACHE = [];
 AjaxZip2.prev = '';
 AjaxZip2.PREFMAP = [
