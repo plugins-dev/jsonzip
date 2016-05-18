@@ -34,7 +34,7 @@ ADDRAjax = function (fpref,fcity,farea) {
 ADDRAjax.VERSION = '2.11';
 
 // デフォルト値
-ADDRAjax.prototype.JSONDATA = '/data';
+ADDRAjax.prototype.JSONDATA = '/datatest';
 ADDRAjax.prototype.URL_SUFFIX = '';
 ADDRAjax.prototype.form_pref = 'pref';
 ADDRAjax.prototype.form_city = 'city';
